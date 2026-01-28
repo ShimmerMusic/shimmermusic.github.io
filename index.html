@@ -3,37 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=https://shimmermusic.github.io/privacy-policy/">
     <title>ドラパス - Shimmer Studio</title>
-    <script>
-        // 即座にリダイレクト（表示を最小限に）
-        window.location.replace("https://shimmermusic.github.io/privacy-policy/");
-    </script>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background: linear-gradient(135deg, #1976d2 0%, #42a5f5 100%);
             color: white;
         }
         .container {
-            text-align: center;
+            max-width: 720px;
             padding: 2rem;
+            text-align: center;
         }
-        a {
-            color: white;
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .contact {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.3);
+        }
+        .contact h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .contact-list li {
+            margin: 0.5rem 0;
+        }
+        .contact-list a {
+            color: #fff;
             text-decoration: underline;
+        }
+        .contact-list a:hover {
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <p>リダイレクト中...</p>
-        <p>自動的にリダイレクトされない場合は、<a href="https://shimmermusic.github.io/privacy-policy/">こちら</a>をクリックしてください。</p>
+        <h1>Shimmer Studio</h1>
+        <p>
+            アイデアとテクノロジーで、日常に新しい体験を。<br>
+            学び、遊び、音楽まで、シンプルで使いやすいアプリを開発しています。
+        </p>
+
+        <section class="contact" aria-label="お問い合わせ">
+            <h2>お問い合わせ</h2>
+            <p style="font-size: 0.95rem; margin-bottom: 1rem; opacity: 0.95;">
+                アプリの不具合・ご要望、ビジネス・取材のご連絡など、お気軽にどうぞ。
+            </p>
+            <ul class="contact-list">
+                <li><strong>メール:</strong> <a href="mailto:shimmer.studio.05@gmail.com">shimmer.studio.05@gmail.com</a></li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
